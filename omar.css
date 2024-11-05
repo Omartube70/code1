@@ -1,0 +1,222 @@
+
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+.produck{
+    background-image: linear-gradient( to top ,red 5% ,black ,blue);
+    width: 100vw;
+    height: 100vh ; 
+    font-family: sans-serif;
+    .title{
+        background-image:linear-gradient(to bottom , blue,black,red);
+        height: 70px;
+    
+
+        h2{
+            font-size: 30px;
+            color: white;
+            padding: 6px;
+            margin-left: 20px;
+           padding-top: 20px;
+          
+        }
+        span{
+            color: red;
+        }
+        a:hover{
+           
+            color: aqua;
+            padding: 10px;
+        }
+        a{
+            position: absolute;
+            right: 0;
+            padding-right: 60px;
+          top: 20px;
+         font-family: serif;
+          margin: 2px;
+          font-size: 25px;
+          color: #fff;
+          text-decoration: none;
+         background-image: linear-gradient( to top , red,blue) ;
+         margin: 3px;
+         padding: 3px;
+
+        }
+        .x{
+            margin-right: 430px;
+
+          
+        }
+        .z{
+            margin-right: 550px;
+
+        }
+        .d{
+          
+            margin-right: 270px;
+        }
+
+
+      .i{
+        margin-right: 160px;
+        background-image: linear-gradient( to top , green,red) ;
+      }
+      .s{
+        background-image: linear-gradient( to top , green,red) ;
+          margin-right: 30px;
+      }
+
+        
+    }
+    .asd{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        position: fixed;
+        bottom: 0;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    .sing-in{ display: block;
+        margin-top: 50px;
+        background-color:rgb(233, 23, 205);
+        height: 70%;
+       
+        input{
+            background-color: rgb(102, 255, 0);
+            color: white;
+           width: 97%;
+           height: 30px;
+           margin: 10px;
+           text-align: center;
+           border: solid 2px rgb(141, 120, 189);
+           text-align: center;
+        }
+        h2{
+            background-color: rgb(55, 42, 235);
+            text-align: center;
+            color: white;
+        }
+        button{
+            background-color: aquamarine;
+            margin-left: auto;
+            margin-right: auto;
+            width: 320px;
+            height: 25px;
+            position: absolute;
+            top:  380px;
+            right:  550px;
+        }
+
+    }
+
+.hide{
+    display: none;
+}
+
+.Login-in{ display: block;
+    background-color: rgb(13, 29, 9);
+    text-align: center;
+      margin: 20px;
+      padding: 20px;
+      font-size: 20px;
+      font-family: system-ui;
+      h2{
+        background-color: rgb(156, 146, 199);
+        color: #fff;
+        margin-bottom: 20px;
+        height: 40px;
+        padding: 10px;
+      }
+      input{
+        color: white;
+        margin: 10px;
+        background-color: rgb(1, 21, 22);
+        width: 50%;
+        height: 20px;
+        border-radius: 20px;
+        border: solid 2px rgb(141, 120, 189);
+        text-align: center;
+      }
+      button{
+        background-color: aquamarine;
+    
+        width: 320px;
+        height: 25px;
+      }
+}
+#h132{
+    background-color: black;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 100px;
+    text-align: center;
+
+}
+#click1{
+    margin-top: 50px;
+}
+#h23{
+    color: #fff;
+   
+}
+
+input:hover{
+    background-color: rgb(20, 14, 14);
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 35px;
+}
+button:hover{
+    background-color: rgb(75, 34, 128);
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 35px;
+
+}
+
+.wibsite{
+    h1{
+        color: black;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 45px;
+    }
+
+    h3{
+        text-align: center;
+        margin-top: 30px;
+        color: rgba(0, 0, 0, 0.719);
+        font-size: 20px;
+
+    }
+background-image: url(img/download12.png);
+background-repeat: no-repeat ;
+background-size:cover ;
+height: 100%;
+width: 100%;
+
+}
+
+.asss{
+    h2{
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        height: 50px;
+        padding-top: 10px;
+    }
+    margin: 10px;
+    background-color: rgb(19, 27, 134);
+}
+::selection{
+    background-color: black;
+    color: red;
+}
+
+}
